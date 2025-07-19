@@ -3502,6 +3502,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-07-18 18:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-07-18 18:05:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-07-18 18:18:40 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-07-18 18:27:36 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/cobbled_deepslate_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
@@ -3511,12 +3535,6 @@
   "securitycraft:recipes/building_blocks/gold_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2025-07-18 18:05:57 +0000"
     },
     "done": true
   },
@@ -3604,12 +3622,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-07-18 18:18:40 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/redstone_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
@@ -3625,12 +3637,6 @@
   "securitycraft:recipes/building_blocks/suspicious_sand_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/strong_or_careful": {
-    "criteria": {
-      "coded_trigger": "2025-07-18 18:27:36 +0000"
     },
     "done": true
   },
@@ -3733,12 +3739,6 @@
   "securitycraft:recipes/building_blocks/deepslate_emerald_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/snow_block": {
-    "criteria": {
-      "has_snowball": "2025-07-18 18:05:57 +0000"
     },
     "done": true
   },
