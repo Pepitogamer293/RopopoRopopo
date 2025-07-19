@@ -770,8 +770,10 @@
       "minecraft:skeleton": "2025-07-17 21:02:47 +0000",
       "minecraft:spider": "2025-07-17 21:12:48 +0000",
       "minecraft:creeper": "2025-07-18 03:32:35 +0000",
+      "minecraft:phantom": "2025-07-19 03:31:16 +0000",
       "minecraft:cave_spider": "2025-07-18 18:48:06 +0000",
       "minecraft:enderman": "2025-07-18 01:03:59 +0000",
+      "minecraft:stray": "2025-07-19 03:31:10 +0000",
       "minecraft:zombie": "2025-07-17 21:11:34 +0000",
       "minecraft:drowned": "2025-07-17 22:06:50 +0000",
       "minecraft:zombie_villager": "2025-07-18 18:15:01 +0000"
@@ -3655,6 +3657,12 @@
   "ad_astra:recipes/misc/small_blue_industrial_lamp": {
     "criteria": {
       "has_small_blue_industrial_lamp": "2025-07-18 22:09:19 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/undead_eye_recipe": {
+    "criteria": {
+      "soul": "2025-07-19 03:21:50 +0000"
     },
     "done": true
   },

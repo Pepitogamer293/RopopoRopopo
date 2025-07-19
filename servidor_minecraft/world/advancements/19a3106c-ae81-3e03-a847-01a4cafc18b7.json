@@ -949,6 +949,7 @@
       "bread": "2025-07-18 02:15:46 +0000",
       "suspicious_stew": "2025-07-18 03:24:38 +0000",
       "rotten_flesh": "2025-07-18 18:39:00 +0000",
+      "cooked_salmon": "2025-07-19 03:20:47 +0000",
       "carrot": "2025-07-18 03:24:58 +0000"
     },
     "done": false
@@ -957,10 +958,14 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-18 01:29:09 +0000",
       "minecraft:spider": "2025-07-18 02:43:15 +0000",
+      "minecraft:phantom": "2025-07-19 03:21:58 +0000",
       "minecraft:witch": "2025-07-18 02:39:02 +0000",
+      "minecraft:husk": "2025-07-19 03:26:56 +0000",
       "minecraft:cave_spider": "2025-07-18 02:02:06 +0000",
       "minecraft:silverfish": "2025-07-18 02:07:38 +0000",
-      "minecraft:zombie": "2025-07-18 00:39:28 +0000"
+      "minecraft:stray": "2025-07-19 03:21:35 +0000",
+      "minecraft:zombie": "2025-07-18 00:39:28 +0000",
+      "minecraft:zombie_villager": "2025-07-19 03:26:00 +0000"
     },
     "done": false
   },
@@ -3739,6 +3744,48 @@
   "securitycraft:recipes/building_blocks/deepslate_emerald_mine": {
     "criteria": {
       "has_mine": "2025-07-18 18:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-19 03:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2025-07-19 03:32:56 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2025-07-19 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/undead_eye_recipe": {
+    "criteria": {
+      "soul": "2025-07-19 03:22:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-19 03:21:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-19 03:21:53 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-07-19 03:24:21 +0000"
     },
     "done": true
   },
