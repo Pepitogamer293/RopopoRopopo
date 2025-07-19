@@ -958,6 +958,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-07-18 01:29:09 +0000",
       "minecraft:spider": "2025-07-18 02:43:15 +0000",
+      "minecraft:creeper": "2025-07-19 04:19:01 +0000",
       "minecraft:phantom": "2025-07-19 03:21:58 +0000",
       "minecraft:witch": "2025-07-18 02:39:02 +0000",
       "minecraft:husk": "2025-07-19 03:26:56 +0000",
@@ -3786,6 +3787,24 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_boots": "2025-07-19 03:32:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-19 04:09:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-07-19 04:09:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-07-19 04:19:10 +0000"
     },
     "done": true
   },
