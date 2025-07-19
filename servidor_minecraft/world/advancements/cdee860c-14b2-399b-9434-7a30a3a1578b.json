@@ -194,6 +194,8 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-07-18 18:26:55 +0000",
       "minecraft:deep_ocean": "2025-07-18 00:18:30 +0000",
+      "minecraft:cherry_grove": "2025-07-19 17:00:25 +0000",
+      "minecraft:windswept_hills": "2025-07-19 17:00:37 +0000",
       "minecraft:beach": "2025-07-18 00:21:56 +0000",
       "minecraft:river": "2025-07-17 23:42:01 +0000",
       "minecraft:lukewarm_ocean": "2025-07-18 00:17:36 +0000",
@@ -4078,6 +4080,18 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-07-19 02:56:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-07-19 03:04:53 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/fortuitous_militia": {
     "criteria": {
       "coded_trigger": "2025-07-19 03:22:12 +0000"
@@ -4090,15 +4104,93 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
-      "has_cobbled_deepslate_slab": "2025-07-19 03:04:53 +0000"
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
     "criteria": {
-      "has_iron_backpack": "2025-07-19 02:56:41 +0000"
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-07-19 17:00:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2025-07-19 16:58:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-07-19 17:00:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 16:34:34 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2025-07-19 16:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-07-19 17:00:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-07-19 17:00:36 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2025-07-19 16:53:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-07-19 17:00:36 +0000"
     },
     "done": true
   },
