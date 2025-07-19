@@ -1584,7 +1584,7 @@
 	#Spawning options for jeg:throwable_phantom_gunner_bait
 	[jeg.throwable_phantom_gunner_bait]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
