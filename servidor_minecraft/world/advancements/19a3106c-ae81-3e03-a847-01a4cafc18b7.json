@@ -46,6 +46,7 @@
       "shrubland": "2025-07-18 00:28:21 +0000",
       "rocky_shrubland": "2025-07-18 00:58:07 +0000",
       "scrubland": "2025-07-18 01:01:32 +0000",
+      "erupting_inferno": "2025-07-19 05:05:15 +0000",
       "highland": "2025-07-18 01:18:41 +0000",
       "jade_cliffs": "2025-07-18 01:27:23 +0000",
       "clover_patch": "2025-07-18 01:21:59 +0000",
@@ -946,6 +947,7 @@
       "cooked_mutton": "2025-07-18 00:36:53 +0000",
       "sweet_berries": "2025-07-18 01:32:48 +0000",
       "baked_potato": "2025-07-19 04:34:22 +0000",
+      "porkchop": "2025-07-19 05:02:45 +0000",
       "apple": "2025-07-18 03:34:53 +0000",
       "potato": "2025-07-18 18:00:22 +0000",
       "bread": "2025-07-18 02:15:46 +0000",
@@ -961,6 +963,7 @@
       "minecraft:blaze": "2025-07-19 04:46:38 +0000",
       "minecraft:skeleton": "2025-07-18 01:29:09 +0000",
       "minecraft:spider": "2025-07-18 02:43:15 +0000",
+      "minecraft:piglin_brute": "2025-07-19 05:00:28 +0000",
       "minecraft:creeper": "2025-07-19 04:19:01 +0000",
       "minecraft:phantom": "2025-07-19 03:21:58 +0000",
       "minecraft:zombified_piglin": "2025-07-19 04:40:30 +0000",
@@ -3894,6 +3897,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_stairs_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2025-07-19 04:46:33 +0000"
@@ -3921,6 +3930,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-07-19 04:43:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-07-19 05:00:53 +0000"
     },
     "done": true
   },
@@ -3993,6 +4008,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2025-07-19 04:36:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-07-19 05:07:03 +0000"
     },
     "done": true
   },
@@ -4110,6 +4131,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_slab_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-19 04:56:09 +0000"
@@ -4182,6 +4209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-07-19 05:00:38 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/hellbark_slab": {
     "criteria": {
       "has_planks": "2025-07-19 04:49:50 +0000"
@@ -4191,6 +4224,12 @@
   "iceandfire:recipes/misc/blindfold": {
     "criteria": {
       "has_item": "2025-07-19 04:36:17 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_brick_wall_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
     },
     "done": true
   },
@@ -4227,6 +4266,12 @@
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2025-07-19 04:41:31 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
     },
     "done": true
   },
@@ -4332,9 +4377,21 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-19 04:56:09 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-07-19 05:00:29 +0000"
     },
     "done": true
   },
@@ -4365,6 +4422,12 @@
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-07-19 04:54:23 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks": {
+    "criteria": {
+      "has_brimstone": "2025-07-19 05:09:42 +0000"
     },
     "done": true
   },
@@ -4413,6 +4476,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-07-19 04:43:25 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-07-19 05:00:29 +0000"
     },
     "done": true
   },
