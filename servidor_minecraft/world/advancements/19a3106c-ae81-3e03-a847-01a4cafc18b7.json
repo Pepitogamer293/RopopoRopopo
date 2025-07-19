@@ -3747,30 +3747,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-07-19 03:24:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2025-07-19 03:32:56 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/fortuitous_militia": {
-    "criteria": {
-      "coded_trigger": "2025-07-19 03:27:41 +0000"
-    },
-    "done": true
-  },
-  "endrem:main/undead_eye_recipe": {
-    "criteria": {
-      "soul": "2025-07-19 03:22:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-07-19 03:21:53 +0000"
@@ -3783,9 +3759,33 @@
     },
     "done": true
   },
+  "endrem:main/undead_eye_recipe": {
+    "criteria": {
+      "soul": "2025-07-19 03:22:53 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/bone_crusher": {
     "criteria": {
       "coded_trigger": "2025-07-19 03:24:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-19 03:24:48 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2025-07-19 03:27:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2025-07-19 03:32:56 +0000"
     },
     "done": true
   },
