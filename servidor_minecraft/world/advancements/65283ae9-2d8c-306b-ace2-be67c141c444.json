@@ -770,14 +770,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-07-17 22:12:16 +0000",
+      "minecraft:blaze": "2025-07-19 04:52:39 +0000",
       "minecraft:skeleton": "2025-07-17 21:02:47 +0000",
       "minecraft:ghast": "2025-07-19 04:34:16 +0000",
       "minecraft:hoglin": "2025-07-19 04:32:45 +0000",
       "minecraft:spider": "2025-07-17 21:12:48 +0000",
+      "minecraft:piglin_brute": "2025-07-19 04:57:12 +0000",
       "minecraft:creeper": "2025-07-18 03:32:35 +0000",
       "minecraft:phantom": "2025-07-19 03:31:16 +0000",
       "minecraft:zombified_piglin": "2025-07-19 04:34:50 +0000",
       "minecraft:cave_spider": "2025-07-18 18:48:06 +0000",
+      "minecraft:piglin": "2025-07-19 04:57:17 +0000",
       "minecraft:enderman": "2025-07-18 01:03:59 +0000",
       "minecraft:stray": "2025-07-19 03:31:10 +0000",
       "minecraft:zombie": "2025-07-17 21:11:34 +0000",
@@ -3672,6 +3675,31 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-07-19 04:55:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-19 04:52:12 +0000",
+      "minecraft:nether_wastes": "2025-07-19 04:56:10 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-07-19 03:57:44 +0000"
@@ -3702,9 +3730,45 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-07-19 04:52:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-07-19 03:50:20 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
     },
     "done": true
   },
@@ -3714,15 +3778,33 @@
     },
     "done": true
   },
+  "securitycraft:recipes/building_blocks/reinforced_granite": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/logistics/pulse_repeater": {
     "criteria": {
       "has_item": "2025-07-19 04:12:16 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/username_logger": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
     },
     "done": true
   },
@@ -3744,6 +3826,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2025-07-19 04:28:30 +0000"
@@ -3756,9 +3844,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/misc/portable_tune_player": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/palettes/scorchia": {
+    "criteria": {
+      "has_item": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
     },
     "done": true
   },
@@ -3774,6 +3892,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-07-19 03:50:12 +0000"
@@ -3786,9 +3916,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
     },
     "done": true
   },
@@ -3804,9 +3952,27 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/redstone/reinforced_dropper": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
     },
     "done": true
   },
@@ -3816,15 +3982,33 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-19 04:52:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2025-07-19 04:39:53 +0000"
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-07-19 03:57:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
     },
     "done": true
   },
@@ -3846,6 +4030,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
@@ -3855,6 +4045,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-07-19 04:30:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
     },
     "done": true
   },
@@ -3870,9 +4066,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/tools/universal_block_reinforcer_lvl2": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_observer": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
     },
     "done": true
   },
@@ -3894,6 +4114,24 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-07-19 03:57:44 +0000"
@@ -3909,6 +4147,24 @@
   "securitycraft:recipes/redstone/reinforced_redstone_lamp": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-07-19 04:53:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
     },
     "done": true
   },
@@ -3930,6 +4186,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/logistics/powered_toggle_latch": {
     "criteria": {
       "has_item": "2025-07-19 04:12:16 +0000"
@@ -3948,9 +4210,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-07-19 04:56:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-07-19 04:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-19 04:53:34 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/tools/universal_block_modifier": {
     "criteria": {
       "has_redstone": "2025-07-19 04:12:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-07-19 04:56:38 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2025-07-19 04:54:03 +0000"
     },
     "done": true
   },
@@ -3963,6 +4267,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-19 03:57:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-07-19 04:52:40 +0000"
     },
     "done": true
   },
