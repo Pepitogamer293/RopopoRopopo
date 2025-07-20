@@ -66,6 +66,7 @@
       "fir_clearing": "2025-07-18 01:37:40 +0000",
       "pumpkin_patch": "2025-07-18 02:24:58 +0000",
       "prairie": "2025-07-18 00:26:36 +0000",
+      "glowing_grotto": "2025-07-20 03:16:34 +0000",
       "undergrowth": "2025-07-19 04:30:59 +0000",
       "crag": "2025-07-18 01:28:07 +0000",
       "ominous_woods": "2025-07-18 03:18:10 +0000"
@@ -5172,6 +5173,18 @@
   "create:recipes/misc/crafting/kinetics/controller_rail": {
     "criteria": {
       "has_item": "2025-07-20 02:54:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-07-20 03:17:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-07-20 03:19:48 +0000"
     },
     "done": true
   },
