@@ -1,4 +1,14 @@
 
+[Pathfinding]
+	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
+	#Range: > 1
+	"Dragon Pathfinding Threads" = 3
+	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
+	#Range: > 1
+	"Dragon Max Pathfinding Nodes" = 5000
+	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
+	"Debug Pathfinding Mode" = false
+
 [Generation]
 
 	[Generation.Dragon]
@@ -382,14 +392,4 @@
 	"Dragon Bone Ice Abilities" = true
 	#True if the dragon bone lightning sword strikes attackers.
 	"Dragon Bone Lightning Abilities" = true
-
-[Pathfinding]
-	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
-	#Range: > 1
-	"Dragon Pathfinding Threads" = 3
-	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
-	#Range: > 1
-	"Dragon Max Pathfinding Nodes" = 5000
-	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
-	"Debug Pathfinding Mode" = false
 
