@@ -18183,3 +18183,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [20Jul2025 01:48:05.941] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 21
 [20Jul2025 01:48:05.949] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7079df1e[id=<null>,name=Color_duty,properties={},legacy=false] (/100.118.233.77:53475) lost connection: Disconnected
 [20Jul2025 01:48:05.959] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45429ms or 908 ticks behind
+[20Jul2025 01:52:42.443] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jul2025 01:52:42.464] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jul2025 01:57:42.440] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jul2025 01:57:42.459] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
