@@ -1,84 +1,140 @@
-[20Jul2025 02:11:19.510] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[20Jul2025 02:11:19.514] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[20Jul2025 02:11:20.373] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[20Jul2025 02:11:20.429] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/RopopoRopopo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[20Jul2025 02:11:20.792] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[20Jul2025 02:11:20.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Jul2025 02:11:20.795] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Jul2025 02:11:20.797] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[20Jul2025 02:11:21.089] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
-[20Jul2025 02:11:24.019] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20Jul2025 02:11:24.081] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
-[20Jul2025 02:11:24.083] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
-[20Jul2025 02:11:24.175] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[20Jul2025 02:11:24.223] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Jul2025 02:11:24.402] [main/WARN] [mixin/]: Reference map 'cgs.mixin-refmap.json' for cgs.mixin.json could not be read. If this is a development environment you can ignore this message
-[20Jul2025 02:11:25.552] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameNarrator (java.lang.ClassNotFoundException: net.minecraft.client.GameNarrator)
-[20Jul2025 02:11:25.553] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameNarrator was not found ntgl.mixin.json:common.NarratorMixin
-[20Jul2025 02:11:26.268] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20Jul2025 02:11:33.344] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[20Jul2025 02:11:33.349] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[20Jul2025 02:11:33.353] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[20Jul2025 02:11:33.356] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[20Jul2025 02:11:33.360] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[20Jul2025 02:11:33.361] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[20Jul2025 02:11:33.368] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[20Jul2025 02:11:33.369] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[20Jul2025 02:11:33.836] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[20Jul2025 02:11:33.837] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[20Jul2025 02:11:33.895] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
-[20Jul2025 02:11:34.213] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
-[20Jul2025 02:11:34.720] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[20Jul2025 02:11:34.732] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[20Jul2025 02:11:50.787] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/sophisticatedcore-common.toml is not correct. Correcting
-[20Jul2025 02:11:50.826] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
-[20Jul2025 02:11:50.987] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/iceandfire-common.toml is not correct. Correcting
-[20Jul2025 02:11:51.033] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/cataclysm.toml is not correct. Correcting
-[20Jul2025 02:11:51.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[20Jul2025 02:11:51.261] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
-[20Jul2025 02:11:51.264] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
-[20Jul2025 02:11:51.360] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[20Jul2025 02:11:51.360] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[20Jul2025 02:11:51.360] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[20Jul2025 02:11:51.360] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:aiming for minecraft:living_entity
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_right for minecraft:living_entity
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_left for minecraft:living_entity
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_right for minecraft:living_entity
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_left for minecraft:living_entity
-[20Jul2025 02:11:51.461] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_right for minecraft:living_entity
-[20Jul2025 02:11:51.462] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_left for minecraft:living_entity
-[20Jul2025 02:11:51.462] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_start for minecraft:living_entity
-[20Jul2025 02:11:51.462] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_end for minecraft:living_entity
-[20Jul2025 02:11:51.462] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_right for minecraft:living_entity
-[20Jul2025 02:11:51.462] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_left for minecraft:living_entity
-[20Jul2025 02:11:51.467] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20Jul2025 02:11:51.468] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[20Jul2025 02:11:51.468] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[20Jul2025 02:11:51.468] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[20Jul2025 02:11:51.468] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[20Jul2025 02:11:51.468] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[20Jul2025 02:11:51.469] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[20Jul2025 02:11:51.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[20Jul2025 02:11:51.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
-[20Jul2025 02:11:51.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
-[20Jul2025 02:11:51.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Starting version check at https://api.modrinth.com/updates/7qSJGSHp/forge_updates.json
-[20Jul2025 02:11:51.622] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[20Jul2025 02:11:51.623] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[20Jul2025 02:11:51.623] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
-[20Jul2025 02:11:51.715] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/badmobs-common.toml is not correct. Correcting
-[20Jul2025 02:11:51.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Found status: BETA_OUTDATED Current: 0.1.4 Target: 0.2.5+mod
-[20Jul2025 02:11:51.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20Jul2025 02:11:52.094] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/badmobs-common.toml is not correct. Correcting
-[20Jul2025 02:11:53.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[20Jul2025 02:11:53.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[20Jul2025 02:11:53.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[20Jul2025 02:11:53.206] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[20Jul2025 02:11:53.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.3 Target: null
-[20Jul2025 02:11:53.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[20Jul2025 02:11:53.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
-[20Jul2025 02:11:58.067] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20Jul2025 02:11:58.115] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[20Jul2025 02:46:22.771] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Jul2025 02:46:22.775] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[20Jul2025 02:46:23.535] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Jul2025 02:46:23.637] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/RopopoRopopo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Jul2025 02:46:23.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Jul2025 02:46:23.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Jul2025 02:46:23.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Jul2025 02:46:23.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/RopopoRopopo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Jul2025 02:46:24.330] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[20Jul2025 02:46:27.468] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Jul2025 02:46:27.547] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[20Jul2025 02:46:27.550] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[20Jul2025 02:46:27.657] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Jul2025 02:46:27.717] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jul2025 02:46:27.996] [main/WARN] [mixin/]: Reference map 'cgs.mixin-refmap.json' for cgs.mixin.json could not be read. If this is a development environment you can ignore this message
+[20Jul2025 02:46:29.079] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameNarrator (java.lang.ClassNotFoundException: net.minecraft.client.GameNarrator)
+[20Jul2025 02:46:29.079] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameNarrator was not found ntgl.mixin.json:common.NarratorMixin
+[20Jul2025 02:46:29.823] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Jul2025 02:46:38.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Jul2025 02:46:38.020] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20Jul2025 02:46:38.025] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20Jul2025 02:46:38.029] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20Jul2025 02:46:38.157] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20Jul2025 02:46:38.159] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20Jul2025 02:46:38.165] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20Jul2025 02:46:38.170] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20Jul2025 02:46:38.600] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Jul2025 02:46:38.600] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Jul2025 02:46:38.667] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[20Jul2025 02:46:39.186] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[20Jul2025 02:46:40.047] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[20Jul2025 02:46:40.110] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[20Jul2025 02:46:58.266] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/mowziesmobs-common.toml is not correct. Correcting
+[20Jul2025 02:46:58.454] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/RopopoRopopo/servidor_minecraft/config/balm-common.toml is not correct. Correcting
+[20Jul2025 02:46:58.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[20Jul2025 02:46:58.740] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[20Jul2025 02:46:58.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[20Jul2025 02:46:58.929] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[20Jul2025 02:46:58.929] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[20Jul2025 02:46:58.929] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[20Jul2025 02:46:58.929] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[20Jul2025 02:46:59.000] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[20Jul2025 02:46:59.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[20Jul2025 02:46:59.041] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:aiming for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_right for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_left for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_right for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_left for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_right for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_left for minecraft:living_entity
+[20Jul2025 02:46:59.042] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_start for minecraft:living_entity
+[20Jul2025 02:46:59.043] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_end for minecraft:living_entity
+[20Jul2025 02:46:59.043] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_right for minecraft:living_entity
+[20Jul2025 02:46:59.043] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_left for minecraft:living_entity
+[20Jul2025 02:46:59.049] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20Jul2025 02:46:59.049] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[20Jul2025 02:46:59.049] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[20Jul2025 02:46:59.050] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[20Jul2025 02:46:59.050] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[20Jul2025 02:46:59.051] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[20Jul2025 02:46:59.051] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[20Jul2025 02:46:59.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[20Jul2025 02:46:59.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Starting version check at https://api.modrinth.com/updates/7qSJGSHp/forge_updates.json
+[20Jul2025 02:46:59.234] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[20Jul2025 02:46:59.237] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[20Jul2025 02:46:59.238] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[20Jul2025 02:46:59.310] [main/ERROR] [Bad Mobs/CATCHING]: Catching
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.darkhax.badmobs.config.ConfigManager.open(ConfigManager.java:55) ~[BadMobs-1.20.1-19.0.4%20(2).jar%23150!/:19.0.4]
+	at net.darkhax.badmobs.config.Configuration.<init>(Configuration.java:83) ~[BadMobs-1.20.1-19.0.4%20(2).jar%23150!/:19.0.4]
+	at net.darkhax.badmobs.BadMobs.lambda$onLoadComplete$0(BadMobs.java:29) ~[BadMobs-1.20.1-19.0.4%20(2).jar%23150!/:19.0.4]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$2(DeferredWorkQueue.java:81) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:76) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650) ~[?:?]
+	at net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35) ~[forge-1.20.1-47.3.7-universal.jar%23194!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:43) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:28) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:224) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$finishMods$17(ModLoader.java:197) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.finishMods(ModLoader.java:197) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.3.7-universal.jar%23194!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file badmobs-common.toml of type COMMON for modid badmobs
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	... 42 more
+Caused by: com.electronwill.nightconfig.core.io.ParsingException: Table with path [iceandfire, dragon_multipart] has been declared twice.
+	at com.electronwill.nightconfig.toml.TomlParser.checkContainsOnlySubtables(TomlParser.java:136) ~[toml-3.6.4.jar%2359!/:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:93) ~[toml-3.6.4.jar%2359!/:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.4.jar%2359!/:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.4.jar%2358!/:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.4.jar%2358!/:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.4.jar%2358!/:?]
+	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.4.jar%2358!/:?]
+	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.4.jar%2358!/:?]
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:43) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:60) ~[fmlcore-1.20.1-47.3.7.jar%23190!/:?]
+	... 42 more
+[20Jul2025 02:46:59.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Found status: BETA_OUTDATED Current: 0.1.4 Target: 0.2.5+mod
+[20Jul2025 02:46:59.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Jul2025 02:46:59.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Jul2025 02:46:59.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[20Jul2025 02:46:59.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[20Jul2025 02:46:59.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[20Jul2025 02:46:59.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.3 Target: null
+[20Jul2025 02:46:59.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[20Jul2025 02:46:59.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[20Jul2025 02:47:05.902] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Jul2025 02:47:05.965] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraft.util.DirectoryLock$LockException: /workspaces/RopopoRopopo/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
 	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23189!/:?]
