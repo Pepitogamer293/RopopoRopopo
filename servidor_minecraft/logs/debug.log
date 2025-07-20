@@ -19424,3 +19424,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [19Jul2025 23:53:21.512] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 lost connection: Disconnected
 [19Jul2025 23:53:21.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 left the game
 [19Jul2025 23:53:21.513] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[19Jul2025 23:55:58.816] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Jul2025 23:55:58.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jul2025 00:00:58.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jul2025 00:00:58.849] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
