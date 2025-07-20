@@ -960,12 +960,14 @@
       "sweet_berries": "2025-07-18 01:32:48 +0000",
       "cooked_beef": "2025-07-19 21:54:42 +0000",
       "baked_potato": "2025-07-19 04:34:22 +0000",
+      "beef": "2025-07-20 04:56:44 +0000",
       "porkchop": "2025-07-19 05:02:45 +0000",
       "apple": "2025-07-18 03:34:53 +0000",
       "potato": "2025-07-18 18:00:22 +0000",
       "bread": "2025-07-18 02:15:46 +0000",
       "suspicious_stew": "2025-07-18 03:24:38 +0000",
       "rotten_flesh": "2025-07-18 18:39:00 +0000",
+      "cooked_chicken": "2025-07-20 05:46:52 +0000",
       "cooked_salmon": "2025-07-19 03:20:47 +0000",
       "carrot": "2025-07-18 03:24:58 +0000"
     },
@@ -5436,6 +5438,12 @@
   "iceandfire:recipes/misc/dragon_stick": {
     "criteria": {
       "has_item": "2025-07-20 04:27:27 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/use_tide_trident": {
+    "criteria": {
+      "shot_arrow": "2025-07-20 05:12:51 +0000"
     },
     "done": true
   },
